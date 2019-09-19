@@ -1,0 +1,86 @@
+<!-- <!DOCTYPE html> 
+ 
+<head> 
+    <title>Chat Application</title> 
+    <link rel="stylesheet" type="text/css" href="../css/registration.css">
+</head> 
+<body> -->
+
+    <!-- this is for chatapp head -->
+        <div class="menu"> 
+                    <div class="head1">Chat App   
+                        <button href="#logOut" class="loginBtnRight" ui-sref="login">LOGOUT</button> 
+                    </div>       
+        </div> 
+
+
+       
+    <!-- this for user -->
+
+            <div class="userList">
+                    <div ng-repeat="uData in getUserData">
+                            <button class="userListColor" ng-click="getUserMessage(uData)">{{uData.firstname}}</button><br><br>
+                    </div>
+            </div>
+    
+        <div>
+            <h1>Welcome..{{firstname}}</h1>
+        </div>
+
+        <!-- msg send button -->
+        <div class="msgSendText">
+            <input type="text" placeholder="Enter msg" ng-model="message"> 
+        </div>
+        <div>
+            <button class="sendBtn" ng-click="sendMessage()">Send</button>
+        </div>
+
+
+        <!-- CHAT MSG -->
+            <div class="contentView">  
+                <div ng-repeat="msg in allMessage">
+                      <!-- only message sender on right side -->
+                   <button class="senderMsg" ng-if="senderLoginId == msg.senderId && receiverClickId == msg.receiverId">{{msg.message}}</button> <br>
+                    <!-- only messag receiver on left  side -->
+                    <button class="receiverMsg" ng-if="receiverClickId== msg.senderId && senderLoginId == msg.receiverId">{{msg.message}}</button><br>
+                  
+                </div>
+            </div>
+
+<!-- 
+        
+      
+</body> 
+</html>   
+ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--  -->

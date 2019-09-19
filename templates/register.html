@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+	<title>Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="../css/registration.css">
+   
+</head>
+<body ng-controller='loginCtrl'>
+    <form >
+    <div class="container2" align="center">
+		<h1>Registration Form</h1>
+        <div>
+        <label><b>First Name*</b> &nbsp;&nbsp;&nbsp;</label><br>
+        <input type="text" size="25" ng-model='firstname' required> 
+        </div>
+        <br>  
+        <div> 
+        <label><b>Last Name*</b></label><br>
+        <input type="text" size="25" ng-model='lastname' required>
+		</div>
+		<br>  
+        <div> 
+        <label><b>E-mail*</b></label><br>
+        <input type="text" size="25" ng-model='email' required ng-keyup="emailValidation(email)"><br>
+        <span ng-show ="emailVal" style="color: red">Email should be in email format</span>
+		</div> 
+        <div> 
+        <label><b>Password*</b></label><br>
+        <input type="password" size="25" ng-model='password' required>
+		</div>
+        <div>
+		<button type="button" class="registerbtn" ng-click='registration()'>Register</button>
+		<button type="button" class="cancelbtn"> Cancel</button>
+        <p>Already have an account?<a ui-sref='login'>Sign in</a></p>
+
+    
+        </div>
+	</div>
+    </form>
+</body>
+</html>

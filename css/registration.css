@@ -1,0 +1,186 @@
+
+body { 
+  margin: 0 auto; 
+  background-position:center; 
+  background-size: contain; 
+
+background-image: url('/asserts/img.jpeg')
+} 
+.container{
+    height: 300;
+    width: 400;
+    background-color:white; 
+    position: absolute;
+    top:15%;
+    left: 35%;
+}
+.loginbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    opacity: 0.9;
+    align-content: center
+  }
+  .submitbtn{
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 5px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    opacity: 0.9;
+    align-content: center
+  }
+  .forgotpassword{
+    height:70%;
+    width:40%;
+    background-color:white; 
+    position: absolute;
+    left: 30%;
+    top: 15%
+}
+
+
+.container2{
+    height:80%;
+    width:40%;
+    background-color:white; 
+    position: absolute;
+    left: 30%;
+    top: 10%
+}
+
+.registerbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 15px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    opacity: 0.9;
+    align-content: center
+  }
+  .cancelbtn{
+    background-color:red;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    opacity: 0.9;
+    align-content: center
+  }
+  .sendbtn{
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    opacity: 0.9;
+    align-content: center
+  }
+
+  .sendbutton{
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    opacity: 0.9;
+    align-content: center
+  }
+
+  /*  **************************************************************************/
+  .head1 { 
+    font-size:40px; 
+    color:midnightblue;
+    font-weight:bold; 
+    align-self:left;
+} 
+.menu {    
+    top: 0; 
+    background-color:mediumpurple;  
+    color:white; 
+    margin: 0 auto; 
+    /* overflow: hidden;  */
+} 
+.loginBtnRight { 
+    right: auto; 
+    float: right; 
+} 
+.userDiv{
+content: "";
+display: table;
+clear: both;       
+}
+
+.userList {
+    overflow:scroll;
+    float: left;
+    width: 20%;
+    height: 500px;
+    background:palevioletred;
+    background-image: url('/asserts/userList.jpeg')
+    }
+
+    .userListColor{
+      background-color:yellowgreen;
+      color:black
+    }
+.contentView{
+
+    overflow: auto;
+    float: right;
+    width: 600px;
+    background-color:lightgreen;
+    height:400px;
+    position: absolute;
+    left:300px;  
+    background-image: url('/asserts/chat.jpeg')
+    /* padding :10px 15px 22px 20px; 
+     border-radius: 30px;  */
+   
+}
+.senderMsg{
+  position: absolute;
+  right: 10px;
+}
+
+.receiverMsg{
+  position: absolute;
+  left:40px;
+}
+
+.msgSendText{
+  position: absolute;
+  left:25%;
+  top: 85%;
+  width: 40%;
+  padding: 12px 15px;
+  /* margin: 8px 0; */
+
+}
+
+.sendBtn{
+  color: blue;
+  background-color: crimson;
+  position: absolute;
+  left:50%;
+  top: 85%;
+  width:60px;
+  padding: 12px 15px;
+  /* margin: 8px 0; */
+  right: 50%;
+
+}

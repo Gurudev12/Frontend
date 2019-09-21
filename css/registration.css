@@ -134,9 +134,9 @@ clear: both;
     background-image: url('/assets/userList.jpeg')
     }
 
-    .userListColor{
-      background-color:yellowgreen;
-      color:black
+.userListColor{
+  height:30;
+  width: 40;
     }
 .contentView{
 

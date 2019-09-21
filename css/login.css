@@ -3,8 +3,8 @@ form{
     background-image: url('/asserts/login.jpeg')
 }
 .container{
-    height:500;
-    width: 450;
+    height:auto;
+    width:20%;
     background-color:white; 
     position: absolute;
     top:15%;

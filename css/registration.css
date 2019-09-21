@@ -141,15 +141,14 @@ clear: both;
 
     overflow: auto;
     float: right;
-    width: 700px;
+    width: 600px;
     background-color:lightgreen;
-    height:500px;
+    height:400px;
     position: absolute;
-    left:350px;  
-    background-image: url('/assets/chat.jpeg')
-    /* padding :10px 15px 22px 20px; 
-     border-radius: 30px;  */
-   
+    left:300px;  
+    background-image: url('/assets/chat.jpeg');
+    padding :10px 15px 22px 20px; 
+    border-radius: 30px;
 }
 .senderMsg{
   position: absolute;

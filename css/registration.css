@@ -130,7 +130,6 @@ clear: both;
     float: left;
     width: 20%;
     height: 500px;
-    background:palevioletred;
     background-image: url('/assets/userList.jpeg')
     }
 
@@ -142,11 +141,11 @@ clear: both;
 
     overflow: auto;
     float: right;
-    width: 600px;
+    width: 700px;
     background-color:lightgreen;
-    height:400px;
+    height:500px;
     position: absolute;
-    left:300px;  
+    left:350px;  
     background-image: url('/assets/chat.jpeg')
     /* padding :10px 15px 22px 20px; 
      border-radius: 30px;  */

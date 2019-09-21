@@ -19,14 +19,13 @@
 
             <div class="userList">
                     <div ng-repeat="uData in getUserData">
-                            <button class="userListColor" align=center ng-click="getUserMessage(uData)">{{uData.firstname}}</button><br><br>
+                            <button class="userListColor" ng-click="getUserMessage(uData)">{{uData.firstname}}</button><br><br>
                     </div>
             </div>
     
         <div>
             <h1>Welcome...</h1>
         </div>
-
         <!-- msg send button -->
         <div class="msgSendText">
             <input type="text" placeholder="Enter msg" ng-model="message"> 
@@ -47,9 +46,7 @@
                 </div>
             </div>
 
-<!-- 
-        
-      
+<!--
 </body> 
 </html>   
  -->

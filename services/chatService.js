@@ -26,7 +26,7 @@ chatApp.service('getUserDetailService', function ($http, $location) {
         $http(
             {
                 method:'GET',
-                url:'http://localhost:4000/messageChatAppData'
+                url:'http://18.217.137.107:4000/messageChatAppData'
 
             }).then(function(response)
                      {         

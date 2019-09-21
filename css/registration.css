@@ -146,7 +146,7 @@ clear: both;
     height:400px;
     position: absolute;
     left:300px;  
-    background-image: url('/assets/chat.jpeg');
+    background-image: url('/assets/chat.jpg');
     padding :10px 15px 22px 20px; 
     border-radius: 30px;
 }

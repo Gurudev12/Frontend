@@ -4,7 +4,7 @@ chatApp.service("resetService", function ($http, $location) {
         $http(
             {
                 method: 'POST',
-                url: 'http://localhost:4000/ResetPassword',
+                url: 'http://18.217.137.107:4000/ResetPassword',
                 data: data
             })
             .then(

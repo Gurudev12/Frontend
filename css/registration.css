@@ -4,7 +4,7 @@ body {
   background-position:center; 
   background-size: contain; 
 
-background-image: url('/asserts/img.jpeg')
+background-image: url('/assets/img.jpeg')
 } 
 .container{
     height: 300;
@@ -131,7 +131,7 @@ clear: both;
     width: 20%;
     height: 500px;
     background:palevioletred;
-    background-image: url('/asserts/userList.jpeg')
+    background-image: url('/assets/userList.jpeg')
     }
 
     .userListColor{
@@ -147,7 +147,7 @@ clear: both;
     height:400px;
     position: absolute;
     left:300px;  
-    background-image: url('/asserts/chat.jpeg')
+    background-image: url('/assets/chat.jpeg')
     /* padding :10px 15px 22px 20px; 
      border-radius: 30px;  */
    

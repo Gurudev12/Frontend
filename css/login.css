@@ -3,12 +3,13 @@ form{
     background-image: url('/asserts/login.jpeg')
 }
 .container{
-    height:50%;
-    width:20%;
+    height:auto;
+    width:300;
     background-color:white; 
     position: absolute;
-    top:15%;
-    left: 35%;
+    top:20%;
+    left:35%;
+    border: 7px solid black;
 }
 .loginbtn {
     background-color: #4CAF50;

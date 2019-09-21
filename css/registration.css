@@ -164,20 +164,20 @@ clear: both;
   left:25%;
   top: 85%;
   width: 40%;
+  height:10%;
   padding: 12px 15px;
-  /* margin: 8px 0; */
+  margin: 8px 0;
 
 }
 
 .sendBtn{
-  color: blue;
-  background-color: crimson;
+  background-color:blue;
   position: absolute;
-  left:50%;
+  left:45%;
   top: 85%;
   width:60px;
   padding: 12px 15px;
-  /* margin: 8px 0; */
+  margin: 8px 0; 
   right: 50%;
 
 }

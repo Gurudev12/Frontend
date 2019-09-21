@@ -40,9 +40,9 @@
             <div class="contentView">  
                 <div ng-repeat="msg in allMessage">
                       <!-- only message sender on right side -->
-                   <button class="senderMsg" ng-if="senderLoginId == msg.senderId && receiverClickId == msg.receiverId">{{msg.message}}</button> <br>
+                   <label class="senderMsg" ng-if="senderLoginId == msg.senderId && receiverClickId == msg.receiverId">{{msg.message}}</label> <br>
                     <!-- only messag receiver on left  side -->
-                    <button class="receiverMsg" ng-if="receiverClickId== msg.senderId && senderLoginId == msg.receiverId">{{msg.message}}</button><br>
+                    <label class="receiverMsg" ng-if="receiverClickId== msg.senderId && senderLoginId == msg.receiverId">{{msg.message}}</label><br>
                   
                 </div>
             </div>

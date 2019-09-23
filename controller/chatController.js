@@ -47,7 +47,6 @@ chatApp.controller('getUserDetailCtrl', function ($scope, getUserDetailService, 
                     if (localStorage.getItem('loginId') == message.senderId || localStorage.getItem('receiverId') == message.receiverId) {
                         if ($scope.allMessage == undefined) {
                             $scope.allMessage = message;
-                            console.log("i m in if part")
                         }
 
 

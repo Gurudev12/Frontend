@@ -1,5 +1,6 @@
 chatApp.controller('loginCtrl',function($scope,loginService){
     $scope.emailValidation=function(email){
+        //email verified
         let pattern=/^([a-zA-Z0-9_\.])+\@(([gmail\yahoo\hotmail\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
         let res=email.match(pattern);
         if(res){
